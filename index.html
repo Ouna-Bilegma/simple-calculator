@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <input type="text" id="value1" />
+      <select id="operator">
+        <option value="add">Add</option>
+        <option value="min">Minus</option>
+        <option value="mul">Multiply</option>
+        <option value="div">Divide</option>
+      </select>
+      <input type="text" id="value2" />
+      <button class="button button2">=</button>
+      <button type="button" onclick="calc()">Result</button>
+    </form>
+
+    <div id="result"></div>
+  </body>
+  <script src="index.js"></script>
+</html>

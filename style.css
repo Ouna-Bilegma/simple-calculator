@@ -1,0 +1,11 @@
+button {
+  background-color: lightgreen;
+}
+form {
+  margin: auto;
+  text-align: center;
+}
+.button2 {
+  background-color: rgb(173, 166, 166);
+  border-color: black;
+}
